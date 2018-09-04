@@ -48,10 +48,9 @@ img {
 }
 
 .myicon {
-    color: rgb(243, 132, 132);
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
     padding: 10px;
-    display: none;
 }
 
 #wrapper {
