@@ -18,15 +18,20 @@ img {
 }
 
 #navbar {
-    background-color: #000;
+    background-color:#000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
 }
 
 #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    z-index: 100;
 }
 
 #navbar li {
@@ -35,7 +40,7 @@ img {
 
 #navbar li a {
     display: inline-block;
-    padding: 10px 5px;
+    padding: 15px;
     text-decoration: none;
     font-size: 1em;
     color: aliceblue;
@@ -43,20 +48,21 @@ img {
 }
 
 #navbar li a:hover {
-    background-color: coral;
+    background-color: #EEFF00;
     color: black;
 }
 
 .myicon {
-    color: rgb(0, 0, 0);
+    color: rgb(252, 2, 2);
     font-size: 1.5em;
     padding: 10px;
+    float: right;
 }
 
 #wrapper {
     max-width: 1180px;
     position: relative;
-    top: 40px;
+    top: 60px;
     margin: 0 auto;
 }
 
@@ -68,5 +74,27 @@ img {
 }
 
 #main {
-    border: 1px solid black;
+    float: left;
+    padding: 5px;
+    width: 38%;
+}
+
+#second {
+    float: left;
+    padding: 5px;
+    width: 38%;
+}
+
+#wrapper aside {
+    float: left;
+    padding: 5px;
+    width: 20%;
+}
+
+#wrapper footer {
+    clear: both;
+    width: 100%;
+    padding: 5px;
+    background-color: #ddd;
+    text-align: center;
 }
